@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/tvFood"
+        android:paddingTop="25dp"
+        android:paddingLeft="25dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/food"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="25dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvFoodSuggestion"
+        android:paddingLeft="25dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder"/>
+
+    <ImageView
+        android:id="@+id/ivFoodDirection"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/location"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvActivities"
+        android:paddingLeft="25dp"
+        android:paddingTop="25dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="25dp">
+
+        <TextView
+            android:id="@+id/tvActivitySuggestion"
+            android:paddingLeft="25dp"
+            android:paddingBottom="25dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HI"/>
+
+        <ImageView
+            android:id="@+id/ivActivityDirection"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/location"/>
+    </LinearLayout>
+
+
+</LinearLayout>
